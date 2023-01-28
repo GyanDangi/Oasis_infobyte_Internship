@@ -48,3 +48,59 @@ background-color: #edf1f4;
     font-weight: 500;
 
 }
+.calulator .buttons span
+{
+    position:  relative;
+    padding: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 20px #fff ;
+    margin: 10px;
+    cursor: pointer;
+    user-select: none;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #666;
+    border: 2px solid #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),-5px -5px 10px #fff;
+    border-radius: 10px;
+
+}
+.calulator .buttons span:active
+{
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 10px #fff; 
+    color: rgb(251, 7, 7);
+}
+
+.calulator .buttons span#clear
+{
+    grid-column: span 2;
+    background: red;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+
+.calulator .buttons span#plus
+{
+    grid-row: span 2;
+    background: rgb(10, 192, 38);
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+
+.calulator .buttons span#equal
+{
+    grid-row: span 2;
+    background: #2196f3;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+
+.calulator .buttons span#clear:active,
+.calulator .buttons span#plus:active,
+.calulator .buttons span#equal:active
+{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1); 
+}
