@@ -19,6 +19,7 @@ background-color: #edf1f4;
     width: 340px;
     padding: 20px;
     border-radius: 20px;
+    background-color: #a1cae9;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
 }
 /* Button Css */
@@ -37,7 +38,7 @@ background-color: #edf1f4;
     overflow: none;
     width: 100%;
     text-align: end;
-    color: rgb(78, 157, 227);
+    color: rgb(0, 0, 0);
     height: 100px;
     line-height: 100px;
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 20px #fff ;
@@ -61,7 +62,7 @@ background-color: #edf1f4;
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
-    color: #666;
+    color: rgb(0, 0, 0);
     border: 2px solid #edf1f4;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),-5px -5px 10px #fff;
     border-radius: 10px;
@@ -84,7 +85,7 @@ background-color: #edf1f4;
 .calulator .buttons span#plus
 {
     grid-row: span 2;
-    background: rgb(10, 192, 38);
+    background: rgb(4, 237, 58);
     color: #fff;
     border: 2px solid #edf1f4;
 }
@@ -96,7 +97,10 @@ background-color: #edf1f4;
     color: #fff;
     border: 2px solid #edf1f4;
 }
-
+.calulator .buttons span#operator
+{
+background:rgba(225, 242, 96, 0.966) ;
+}
 .calulator .buttons span#clear:active,
 .calulator .buttons span#plus:active,
 .calulator .buttons span#equal:active
