@@ -1,0 +1,1 @@
+let buttons=document.querySelector('.buttons')
