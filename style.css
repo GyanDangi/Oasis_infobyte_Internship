@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #edf1f4;
+}
+.calulator
+{
+    position: relative;
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
+}
+/* Button Css */
+.calulator .buttons
+{
+    position: relative;
+    display: grid;
+}
+
+/* Display: Css */
+.calulator .buttons #value
+{
+    position: relative;
+    grid-column: span 4;
+    user-select: none;
+    overflow: none;
+    width: 100%;
+    text-align: end;
+    color: rgb(78, 157, 227);
+    height: 100px;
+    line-height: 100px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 20px #fff ;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    font-size: 2em;
+    font-weight: 500;
+
+}
