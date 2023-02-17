@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+    place-items: center;
+    display: contents;
+
+}
+header {
+	background-color: #75b5f0;
+	color: #ffffff;
+	padding: 20px;
+    margin:7px;
+    text-align: center;   
+}
+#imageheader{
+    color:whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    position: sticky; 
+    top: 4px;
+}
+main {
+	margin: 0 ;
+	padding: 20px;
+}
+#imgSlider{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+padding: auto;
+width: 50vw;
+height: 112vh;
+background-size: 100% 100%;
+box-shadow: rgba(14, 8, 1, 0.142) 0px 7px 29px 0px;
+animation: changeImage 20s linear  infinite ;
+border-radius: 15px;
+position: relative;
+top:5px;
+left: 5px;
+
+}
+
+@keyframes changeImage {
+    0%{
+        background-image: url('/images/01.jpg');
+    }
+    25%{
+        background-image: url('/Images/02.jpg');
+    }
+    50%{
+        background-image: url('/Images/03.jpg');
+    }
+    75%{
+        background-image: url('/Images/07.jpg');
+    }
+    100%{
+        background-image: url('/Images/06.jpg');
+    }
+}
+
+section {
+    position: relative;
+    top: 10px;
+	margin-bottom: 30px;
+}
+
+section h2 {
+	color: white;
+	margin-bottom: 10px;
+    background-color: #75b5f0;
+    padding: 2px;
+    border-radius: 5px;
+}
+section #hquotes{
+   background-color: #e6e6e6;
+   color: #75b5f0;
+}
+section span{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #75b5f0;
+    font-size: large;
+    
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+}
+section p{
+    padding: 0px 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+}
+
+section li {
+	padding: 5px 20px;
+    text-align: justify;
+}
+
+#quotes {
+	font-style: italic;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #e6e6e6;
+	border-left: 10;
+    border-top: 20;
+    border-radius: 13px;
+    box-sizing: content-box;
+    position: relative;
+    top: 10px;
+
+    
+}
