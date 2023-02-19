@@ -8,7 +8,6 @@ body {
 	font-family: Arial, sans-serif;
 	background-color: #f0f0f0;
     place-items: center;
-    display: contents;
 
 }
 header {
@@ -58,10 +57,9 @@ img{
     width: 345px;
     display: inline-block;
     border-radius: 23px;
-    margin: 1px 3px;
+    margin: 1px 2px;
     background-color: #e6e6e6;
     box-shadow: #dbde0657 0px 7px 29px 0px;
-    /* height: 245px; */
 }
 
 section {
