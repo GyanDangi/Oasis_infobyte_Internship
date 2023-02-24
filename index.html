@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+</head>
+
+<body>
+    <nav class="navbar">
+      <h1>TODO LIST WEB APP</h1>
+    </nav>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false" placeholder="Enter Your Task Title">
+            </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false" placeholder="Enter Your Task Content"></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrappers"></div>
+    <div class="wrapper">
+      <li class="add-box" id="add">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <div class="wrap">
+          <button class="addbutton">Add to LIST</button>
+        </div>
+      </li>
+      <li class="add-box" id="remove">
+        <div class="icon"><i class="uil uil-times"></i></div>
+        <div class="wrap">
+          <button class="addbutton" id="delete">Delete All</button>
+        </div>
+      </li>
+    </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
